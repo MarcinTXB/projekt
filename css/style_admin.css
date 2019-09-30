@@ -1,0 +1,512 @@
+body {
+        background              : #33886F;
+}
+
+.container {
+        color                   : #505050;                
+        background-color        : #FFF;
+        font                    : bold 15px Arial;               
+        width                   : 1080px;
+        margin                  : 2px auto 0 auto;                     
+}
+
+/*******************************************************************/
+
+.container .header {
+        background              : #558F8F;        
+        height                  : 35px;
+}
+
+.container .header #nazwatabeli {        
+        font                    : italic bold 15px Arial;
+        
+        float                   : left;
+        height                  : 20px;
+        width                   : 380px;
+}
+ 
+
+.container .header #nazwatabeli #nazwatabelitekst {
+        color                   : #5F7777;
+        float                   : left;
+        margin                  : 9px 10px 0 55px;
+}
+               
+.container .header #nazwatabeli #nazwatabelinazwa {
+        color                   : #3F5F5F;
+        float                   : left;
+        margin                  : 9px 0 0 0;
+}
+                
+
+.container .header #title {        
+        margin                  : 8px 0 0 0;
+        float                   : left;
+        font                    : italic bold 15px Arial;        
+}
+
+.container .header #zalogowanycaly { 
+        margin                  : 5px 30px 0 0;      
+        float                   : right;                
+        color                   : #FF8F00;                                
+}
+
+.container .header #zalogowanycaly #zalogowanytekst {       
+        margin          : 8px 5px 0 0;
+        float           : left;              
+        font            : italic 11px Arial;        
+}        
+        
+.container .header #zalogowanycaly #zalogowanyimie {        
+        margin          : 5px 15px 0 0;
+        float           : left;        
+        font            : italic bold 14px Arial;       
+}
+
+/******************************************************************/
+
+.container .content {               
+        background              : #F5F5F5;
+        height                  : 400px;                  
+}
+
+.container .content .top {        
+        background              : #E3E8E8;
+        height                  : 32px;
+        width                   : 1080px;               
+}
+
+.container .content .top .menu { margin                  : 2px 0 0 0; }
+
+.container .content .top .menu ul > li {
+        color                   : #CFF0F8;
+        float                   : left;
+        list-style-type         : none;                                       
+}
+
+.container .content .top .menu ul {        
+        margin                  : 0 0 0 1px;
+        padding                 : 0 0 0 0;
+        position                : absolute;
+        z-index                 : 1;
+}
+
+.container .content .top .menu a {        
+        color                   : #CFF0F8;
+        display                 : block;
+}
+
+.container .content .top .menu .second-level-menu  li {        
+        border-radius           : 5px;            
+        background-color        : #18A095;
+        height                  : 2em;   
+        width                   : 200px;
+        display                 : block;              
+}       
+
+.container .content .top .menu .top-level-menu >li {        
+        border-radius           : 5px;
+        margin                  : 0 1px 0 0;        
+        text-align              : center;
+        background-color        : #088;                
+        width                   : 200px;
+        line-height             : 2em;
+} 
+  
+.container .content .top .menu .top-level-menu li:hover ul { display                 : block; }
+
+.container .content .top .menu .second-level-menu {        
+        cursor                  : pointer;
+        display                 : none;
+        width                   : 200px;        
+}
+
+.container .content .top .menu .second-level-menu li a { display                 : block; }    
+
+
+    
+/*********************************************************************/
+
+
+.container .content .top #loggingarea {
+        float           : right;
+        margin          : 0 2px 0 0;
+        height          : 58px;                      
+}
+
+.container .content .top #loggingbutton {        
+        border-radius           : 3px;                          
+        background-color        : #119988;
+        width                   : 140px; 
+        text-align              : center;
+        height                  : 2em;
+        line-height             : 2em;       
+}
+                        
+.container .content .top #loggingbutton a        { 
+        color                   : #F0F0F0;        
+        display                 : block;        
+}                      
+
+.container .content .top #loggingbutton:hover    { background-color      : #038378; /* tło po najechaniu bez naciskania */ }
+
+
+
+/**********************************************************************************************/
+
+.container .content .middle {
+        background              : #88B08F;        
+        height                  : 500px;          
+        width                   : 1080px;
+        position                : absolute;
+        z-index                 : 0;
+}
+
+.container .content .middle #tabMainWithOpis { 
+        font                    : bold 12px Arial;
+        margin                  : 10px 10px 0 10px;
+}
+
+.container .content .middle #tabMainOpis {                
+        color                   : #2F2F2F;
+        background              : #608575;
+        padding                 : 5px 0 0 10px;        
+        height                  : 20px;                                        
+}
+
+.container .content .middle #tabMainScroll {
+        cursor                  : pointer;
+        
+        
+        background              : #859F8F;        
+        overflow                : scroll;        
+        height                  : 200px;               
+}
+
+.container .content .middle #tabMainWithOpis .oddz_column1 {
+        float                   : left;
+        width                   : 110px;
+}
+
+.container .content .middle #tabMainWithOpis .oddz_column2 {
+        float                   : left;
+        width                   : 150px;
+}
+
+.container .content .middle #tabMainWithOpis .oddz_column3 {
+        float                   : left;
+        width                   : 150px;        
+}
+
+.container .content .middle #tabMainWithOpis .oddz_column4 {
+        float                   : left;
+        width                   : 193px;        
+}
+
+.container .content .middle #tabMainWithOpis .oddz_column5 {
+        float                   : left;
+        width                   : 100px;        
+}
+
+.container .content .middle #tabMainWithOpis .oddz_column6 {
+        float                   : left;
+        width                   : 100px;        
+}
+
+/************************************************************************/
+
+.container .content .middle #tabMainWithOpis .prac_column1 {
+        float                   : left;
+        width                   : 80px;
+}
+        
+.container .content .middle #tabMainWithOpis .prac_column2 {
+        float                   : left;
+        width                   : 135px;
+}
+
+.container .content .middle #tabMainWithOpis .prac_column3 {
+        float                   : left;
+        width                   : 80px;
+}
+        
+.container .content .middle #tabMainWithOpis .prac_column4 {
+        float                   : left;
+        width                   : 100px;
+}
+
+.container .content .middle #tabMainWithOpis .prac_column5 {
+        float                   : left;
+        width                   : 135px;
+}
+
+.container .content .middle #tabMainWithOpis .prac_column6_opis {
+        float                   : left;
+        width                   : 250px;
+}
+        
+.container .content .middle #tabMainWithOpis .prac_column6 {
+        float                   : left;
+        width                   : 100px;
+}
+
+.container .content .middle #tabMainWithOpis .prac_column7 {
+        float                   : left;
+        width                   : 15px;
+}
+
+.container .content .middle #tabMainWithOpis .prac_column8 {
+        float                   : left;
+        width                   : 100px;
+}
+
+.container .content .middle #tabMainWithOpis .prac_column9 {
+        float                   : left;
+        width                   : 38px;
+}
+
+.container .content .middle #tabMainWithOpis .prac_column10 {
+        float                   : left;
+        width                   : 20px;
+}
+
+.container .content .middle #tabMainWithOpis #tabMainScroll #tabMain .rekord_prac {
+        height                  : 18px;
+        width                   : 814px;
+        padding                 : 4px 0 0 10px;
+        display                 : block;        
+}        
+
+
+.container .content .middle #tabMainWithOpis #tabMainScroll #tabMain .rekord_oddz {
+        height                  : 18px;
+        width                   : 814px;
+        padding                 : 4px 0 0 10px;
+        display                 : block;        
+}        
+
+
+
+/*********************************************************************************/
+
+
+.container .content .middle #tabMainWithOpis .adres_opis1 {
+        float                   : left;
+        width                   : 165px;
+}       
+
+.container .content .middle #tabMainWithOpis adres_opis2 {
+        float                   : left;
+        width                   : 50px;
+}
+
+
+
+.container .content .middle #tabMainWithOpis .adres_column1 {
+        float                   : left;
+        width                   : 150px;
+}
+        
+.container .content .middle #tabMainWithOpis .adres_column2 {
+        float                   : left;
+        width                   : 15px;      
+}
+
+.container .content .middle #tabMainWithOpis .adres_column3 {
+        float                   : left;
+        width                   : 150px;                                
+}
+
+.container .content .middle #tabMainWithOpis .adres_column4 {
+        float                   : left;
+        width                   : 30px;
+}
+
+.container .content .middle #tabMainWithOpis .adres_column5 {
+        float                   : left;
+        width                   : 20px;
+}
+
+.container .content .middle #tabMainWithOpis #tabMainScroll #tabMain .rekord_adres {
+        height                  : 18px;
+        width                   : 814px;
+        padding                 : 4px 0 0 10px;
+        display                 : block;        
+}
+
+/*************************************************************************/        
+
+.container .content .middle #tabMainWithOpis .samochod_column1 {
+        float                   : left;
+        width                   : 110px;
+}
+
+.container .content .middle #tabMainWithOpis .samochod_column2 {
+        float                   : left;
+        width                   : 110px;
+}
+
+.container .content .middle #tabMainWithOpis .samochod_column3 {
+        float                   : left;
+        width                   : 80px;
+}
+
+.container .content .middle #tabMainWithOpis .samochod_column4 {
+        float                   : left;
+        width                   : 80px;
+}
+
+.container .content .middle #tabMainWithOpis .samochod_column5 {
+        float                   : left;
+        width                   : 100px;
+}
+
+.container .content .middle #tabMainWithOpis .samochod_column6 {
+        float                   : left;
+        width                   : 100px;
+}
+
+.container .content .middle #tabMainWithOpis .samochod_column7 {
+        float                   : left;
+        width                   : 138px;
+}
+
+.container .content .middle #tabMainWithOpis .samochod_column8 {
+        float                   : left;
+        width                   : 150px;
+}
+
+.container .content .middle #tabMainWithOpis .samochod_column9 {
+        float                   : left;
+        width                   : 92px;
+}
+
+
+                
+.container .content .middle #tabMainWithOpis #tabMainScroll #tabMain .rekord_samochod {
+        height                  : 18px;
+        width                   : 1034px;
+        padding                 : 4px 0 0 10px;
+        display                 : block;
+}         
+
+
+
+
+.container .content #infoarea {
+                       
+        background              : #376353;
+        margin                  : 400px 0 0 10px;       
+        
+        position                : relative;
+        
+        padding                 : 10px 0 0 10px;
+        height                  : 80px;
+        width                   : 1050px;
+        
+        
+}
+                        
+
+
+.container .content #infoarea #info1 {               
+        float                   : left;        
+        margin                  : 0 5px 0 0;       
+        
+        
+        
+        height                  : 25px;
+        width                   : 1045px;
+}
+
+.container .content #infoarea #info2 {
+        float                   : left;
+        position                : relative;
+        height                  : 25px;
+        width                   : 1045px;
+}
+
+.container .content #infoarea #info3 {
+        float                   : left;
+        position                : relative;
+        height                  : 25px;
+        width                   : 1045px;
+}
+
+.container .content #infoarea #info4 {
+        position                : relative;
+        height                  : 20px;
+        width                   : 1045px;
+}
+
+.container .content #infoarea .infoareacellopis {
+        font                    : bold 12px Arial;       
+        float                   : left;
+        color                   : #273535;
+        margin                  : 0 5px 0 0;
+        position                : relative;
+}
+ 
+
+
+.container .content #infoarea .infoareacell {
+        font                    : bold 12px Arial;
+        float                   : left;
+        
+        color                   : #252525;
+        margin                  : 0 50px 0 0;                       
+        
+        
+        
+                 
+        
+        position                : relative;
+        
+        
+        
+        
+        
+        
+}
+                   
+
+
+
+
+.return {        
+        border-radius           : 8px;
+        color                   : #FFF;
+        background-color        : #587;
+        margin                  : 0 0 0 330px;
+        text-align              : center;        
+        height                  : 30px;
+        width                   : 210px;                
+}
+
+.return > a {
+        color                   : #FFF;
+        display                 : block;
+        height                  : 17px;
+        padding                 : 7px 0 7px 0;        
+}
+        
+
+a:link { 
+        
+        
+        
+        /*color                   : #55554F; */
+        text-decoration         : none;
+        
+}
+
+
+
+
+
+
+
+
+
+
+

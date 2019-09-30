@@ -1,0 +1,173 @@
+body {
+        background              : #33886F;
+}
+
+.container {
+        color                   : #505050;                
+        background-color        : #FFF;
+        font                    : bold 15px Arial;               
+        width                   : 1080px;
+        margin                  : 2px auto 0 auto;                     
+}
+
+/*******************************************************************/
+
+.container .header {
+        background              : #558F8F;        
+        height                  : 35px;
+}
+
+.container .header #title {        
+        margin                  : 8px 0 0 400px;
+        float                   : left;
+        font                    : italic bold 15px Arial;        
+}
+
+
+
+
+.container .header #zalogowanycaly { 
+        margin          : 5px 30px 0 0;      
+        float           : right;                
+        color           : #FF8F00;                                
+}
+
+.container .header #zalogowanycaly #zalogowanytekst {       
+        margin          : 8px 5px 0 0;
+        float           : left;              
+        font            : italic 11px Arial;        
+}        
+        
+.container .header #zalogowanycaly #zalogowanyimie {        
+        margin          : 5px 15px 0 0;
+        float           : left;        
+        font            : italic bold 14px Arial;       
+}
+
+
+/********************************************************************/
+
+
+.container .content {               
+        background              : #F5F5F5;
+        height                  : 400px;                  
+}
+
+
+.container .content .top  {        
+        float           : left;              
+        height          : 32px;            
+        width           : 1080px;        
+}
+
+
+
+
+
+
+.container .content .top .menu { margin                  : 2px 0 0 0; }
+
+.container .content .top .menu ul > li {
+        color                   : #CFF0F8;
+        float                   : left;
+        list-style-type         : none;                                       
+}
+
+.container .content .top .menu ul {        
+        margin                  : 0 0 0 1px;
+        padding                 : 0 0 0 0;
+        position                : absolute;
+        z-index                 : 1;
+}
+
+.container .content .top .menu a {        
+        color                   : #CFF0F8;
+        display                 : block;
+}
+
+.container .content .top .menu .second-level-menu  li {        
+        border-radius           : 5px;            
+        background-color        : #18A095;
+        height                  : 2em;   
+        width                   : 200px;
+        display                 : block;              
+}       
+
+.container .content .top .menu .top-level-menu >li {        
+        border-radius           : 5px;
+        margin                  : 0 1px 0 0;        
+        text-align              : center;
+        background-color        : #088;                
+        width                   : 160px;
+        line-height             : 2em;
+} 
+  
+.container .content .top .menu .top-level-menu li:hover ul { display                 : block; }
+
+.container .content .top .menu .second-level-menu {        
+        cursor                  : pointer;
+        display                 : none;
+        width                   : 200px;        
+}
+
+.container .content .top .menu .second-level-menu li a { display                 : block; }        
+
+.container .content .top #loggingarea {
+        float           : right;
+        margin          : 0 2px 0 0;
+        height          : 58px;                      
+}
+
+.container .content .top #loggingbutton {        
+        border-radius           : 3px;                          
+        background-color        : #119988;
+        width                   : 140px; 
+        text-align              : center;
+        height                  : 2em;
+        line-height             : 2em;       
+}
+                        
+.container .content .top #loggingbutton a        { 
+        color                   : #F0F0F0;        
+        display                 : block;        
+}                      
+
+.container .content .top #loggingbutton:hover    { background-color      : #038378; /* tło po najechaniu bez naciskania */ }
+
+
+
+
+/********************************************************************/
+
+.container .content .middle {
+        background              : #88B08F;        
+        height                  : 500px;          
+        width                   : 1080px;
+        position                : absolute;
+        z-index                 : 0;
+}
+
+
+
+
+
+a:link { 
+        
+        
+        
+        /*color                   : #55554F; */
+        text-decoration         : none;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+

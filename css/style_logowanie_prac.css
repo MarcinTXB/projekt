@@ -1,0 +1,39 @@
+body {  background      : #33886F; }        
+        
+.container {
+        color           : #222; 
+        background      : #EBF0FF;
+        margin          : 0 auto 0 auto;
+        width           : 1080px;                                  
+}
+
+.container .header {        
+        background      : #558F8F;       
+        height          : 80px;        
+        width           : 1080px;        
+        padding         : 50px 0 0 0;       
+}
+
+.container .header .title {       
+        margin          : 0 0 0 410px;
+        float           : left;
+        font            : italic bold 15px Arial;      
+}
+
+.container .content { margin : 70px 0 0 0; }
+
+.container .content .formularze {
+        font            : italic 14px Arial;
+        margin          : 0 0 0 365px;
+}
+
+.container .content .formularze .formline { margin : 5px 0 0 0; }
+
+.container .content .formularze .formline2 { margin : 20px 0 0 0; }
+
+.container .content #rest {        
+        background      : #558F8F;
+        margin          : 80px 0 0 0;
+        height          : 150px;
+        width           : 1080px;    
+}

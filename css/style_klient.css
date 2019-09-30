@@ -1,0 +1,565 @@
+#container {
+        margin          : 2px auto 0px auto;	
+        font            : 13px Arial, Helvetica, sans-serif;
+        list-style-type : none;
+        width           : 1080px;	
+}
+
+#container #header {                                                      /* 2.0 1.8 */
+        font-style      : italic;
+        font-weight     : 900;
+        color           : #DADAC9;
+        background      : #776; /* tło obok tytułu strony */       
+        margin          : 0 0 8px 0;
+        padding         : 3px 0 3px 0;
+        height          : 1.5em;
+        line-height     : 1.3em;	
+}
+
+#container #header #tytul {
+        float           :left;
+        margin-left     : 50px;
+        font-size       : 18px;
+}
+
+#container #header #rodzaj_samochodow {
+        color           : #999F99;
+        float           : left;
+        margin-left     : 455px;
+        position        : absolute;
+        width           : 200px;
+}        
+
+#container #header #wybrany_oddzial {
+        color           : #999F99;
+        float           : left;
+        margin-left     : 660px;
+        position        : relative;
+}
+
+#container #header #zalogowanycaly {       
+        float           : right;                
+        color           : #FFBF00;                                
+}
+
+#container #header #zalogowanytekst {       
+        margin          : 8px 5px 0 0;
+        float           : left;              
+        font            : italic 11px Arial;        
+}        
+        
+#container #header #zalogowanyimie {        
+        margin          : 5px 15px 0 0;
+        float           : left;        
+        font            : italic bold 14px Arial;       
+}
+
+/**************************************************************/
+
+#container #content #top {        
+        height          : 62px;
+}
+
+#container #content #top .menu {        
+        margin          : 2px 0 0 0; 
+}
+
+#container #content #top .menu ul > li {
+        /*color                   : #CFF0F8;*/
+        float           : left;
+        list-style-type : none;                                       
+}
+
+#container #content #top .menu ul {
+        background      : #F9D860;        
+        margin          : 0 0 0 1px;
+        padding         : 0 0 0 0;
+        position        : absolute;
+        z-index         : 1;
+}
+
+#container #content #top .menu a {
+        font-weight     : 900;
+        display         : block;
+}
+
+#container #content #top .menu .top-level-menu > li {        
+        color           : #4F4F4F;  /*#CFF0F8;*/
+        border-radius   : 5px;
+        margin          : 0 1px 0 0;        
+        text-align      : center;
+        background      : #FC0;                
+        width           : 200px;
+        line-height     : 2em;
+} 
+
+#container #content #top .menu .top-level-menu li:hover ul { display                 : block; }
+
+#container #content #top .menu .top-level-menu > li:hover { background-color      : #FF9F00; }  /* tło po najechaniu bez naciskania */     
+
+/**********************************************   Middle   ****************************************************/
+
+#container #content #middle {
+        position        : absolute;
+        height          : 400px;
+}
+
+#container #content #middle #content_Nasza_wypozyczalnia #picture {
+        background      : url(../pictures/MitsubishiWycietyZmiana.png) no-repeat center center;
+        float           : left;        
+        height          : 200px;
+        width           : 300px;
+}
+
+/**************************************  Rodzaje samochodów   ************************************************/
+
+#container #content #middle #content_rodzaje1 #picture {
+        background      : url(../pictures/MitsubishiWycietyZmiana.png) no-repeat center center;
+        float           : left;        
+        height          : 200px;
+        width           : 300px;
+}
+
+#container #content #middle #content_rodzaje1 #content_rodzaje1_right {
+        float           : left;        
+        font            : italic bold 15px Arial;
+        margin          : 10px 0 0 40px;       
+}
+
+#container #content #middle #content_rodzaje1 #content_rodzaje1_right #content_rodzaje1_right_samochody {
+        color           : #777;
+        background      : #F5F5FF;
+        cursor          : pointer;
+        float           : left;         
+        height          : 189px;
+        width           : 500px;
+}
+
+#container #content #middle #content_rodzaje1 #content_rodzaje1_right .content_rodzaje1_right_samochody_button {
+        float           : left;
+        padding         : 12px 0 0 100px;
+        height          : 51px;
+        width           : 400px;
+}
+
+#container #content #middle #content_rodzaje1 #content_rodzaje1_right .content_rodzaje1_right_samochody_button:hover {
+        background      : #E2FFD2;   /* #E3FFD3; */
+}
+
+#container #content #middle #content_rodzaje2 #content_rodzaje2_outer {
+        background      : #CFCFCF;
+        margin          : 220px 0 0 0;
+        height          : 200px;
+        width           : 1080px;
+}
+
+#container #content #middle #content_rodzaje2 #content_rodzaje2_inner {
+        background      : #E2E2E2;        
+        margin          : 0 0 0 70px;
+        height          : 200px;
+        width           : 810px;
+        position        : absolute;
+}
+
+#container #content #middle #content_rodzaje2 #content_rodzaje2_inner .content_rodzaje2_oddzial {
+        color           : #444;
+        background      : #BFBFBF;
+        border-radius   : 3px;
+        font            : bold italic 15px Arial;
+        margin          : 10px 3px 0 37px;
+        padding         : 3px 0 3px 20px;
+        width           : 173px;
+        display         : inline-block;
+}
+
+#container #content #middle #content_rodzaje2 #content_rodzaje2_inner .content_rodzaje2_oddzial:hover {
+        background : #A0A0A0;
+}
+
+/*******************************************   Lista samochodów   ***********************************************/
+
+#container #content #middle #content_lista_samochodow .samochod_lista_column {
+        background      : url(../pictures/Mitsubishi.png) no-repeat 3px 3px;       
+        float           : left;
+        margin          : 10px 25px 0 0;       
+        height          : 186px;
+        width           : 291px;
+        display         : inline;       
+}
+
+#container #content #middle #content_lista_samochodow .samochod_lista_column:hover {
+        cursor          : pointer;
+        background      : url(../pictures/Mitsubishi.png) no-repeat 3px 3px #FB4;       
+        float           : left;
+        margin          : 10px 25px 0 0;       
+        height          : 186px;
+        width           : 291px;
+        display         : inline;       
+}
+       
+#container #content #middle #content_lista_samochodow .samochod_lista_column .samochod_lista_column_nazwa {
+        margin          : 165px 0 0 3px;
+        height          : 20px;
+        width           : 285px;
+}
+
+#container #content #middle #content_lista_samochodow .linia_samochod {
+        height          : 200px;
+        width           : 1080px;
+}
+
+#container #content #bottom #bottom2 #pokaz_liste_opis {
+        color           : #222;
+        font            : bold italic 13px Arial;
+        margin          : 12px 0 0 80px;
+        overflow        : both;
+        position        : absolute;
+}
+
+#container #content #bottom #bottom2 #pokaz_liste_powrot {
+        color           : #222;
+        font            : bold italic 14px Arial;
+        background      : #298;
+        border-radius   : 10px;
+        margin          : 5px 0 0 760px;
+        height          : 18px;
+        width           : 150px;
+        padding         : 7px;
+        text-align      : center;
+}
+
+#container #content #bottom #bottom2 #pokaz_liste_powrot:hover {
+        color           : #111;
+        background      : #287;
+}
+
+
+
+
+/*********************************************   Wybrany samochód   ************************************************/        
+        
+
+#container #content #middle #content_wybrany {
+        height  : 400px;
+        width           : 1000px;
+        position        : absolute;
+}
+
+#container #content #middle #content_wybrany .content_wybrany2_1_item {
+        position : relative;
+        overflow : both;
+        float : left;
+        margin : 0 14px 0 0;
+}       
+
+#container #content #middle #content_wybrany .content_wybrany2_2_item {
+        position : relative;
+        overflow : both;
+        float : left;
+        margin : 0 14px 0 0;
+}       
+
+#container #content #middle #content_wybrany #wybranySamochod_button_powrot {
+        color : #BBB;
+        background : #555;
+        border-radius : 15px;
+        font : bold italic 14px Arial;
+        text-align : center;
+        padding : 10px 0 0 0;
+        
+}
+
+#container #content #middle #content_wybrany #wybranySamochod_button_powrot:hover {
+        background      : #333;
+}
+
+#container #content #middle #content_wybrany #wybranySamochod_button {
+        color : #BBB;
+        background : #555;
+        border-radius : 15px;
+        font : bold italic 14px Arial;
+        text-align : center;
+        padding : 10px 0 0 0;
+}
+
+#container #content #middle #content_wybrany #wybranySamochod_button:hover {
+        background      : #333;
+}
+
+#container #content #middle #content_wybrany .content_wybrany4_item {
+        background      : #486;
+        font            : bold italic 13px Arial;
+        position        : relative;
+        overflow        : both;
+        float           : left;
+        margin          : 0 1px 0 0;
+        text-align      : center;
+        padding         : 2px 0 0 0;
+        height          : 18px;
+        width			: 30px;
+}
+
+/************************************************************************************/
+
+#container #content #middle #content_wypozyczanie #potwierdzenie {
+        border-radius	: 2px;
+		background		: #666;
+		margin			: 30px 0 0 535px;
+		height			: 113px;
+		width			: 400px;
+		position		: absolute;
+}        
+
+#container #content #middle #content_wypozyczanie #potwierdzenie_dane_klienta {
+		border-radius	: 2px;
+		background		: #171717;
+		margin			: 5px 0 0 10px;
+		padding			: 0 0 0 20px;
+		position		: relative;
+		height			: 95px;
+		width			: 320px;
+}        
+
+
+
+#container #content #middle #content_wypozyczanie #potwierdzenie_daty
+{
+	color		: #942;
+	margin		: 122px 0 0 -350px;
+	font		: bold italic 14px Arial;
+	width		: 500px;
+	position	: absolute;
+}
+
+#container #content #middle #content_wypozyczanie .potwierdzenie_dane_klienta_table_tr_td {
+        padding : 5px 10px 0 0;
+        /*float : left; */
+        /*overflow : both; */
+        position : relative;
+}
+                             
+#container #content #middle #content_wypozyczanie #rezerwowanieSamochodu_button_powrot {
+        background      : #999;
+        border-radius   : 15px;
+        font            : bold italic 14px Arial;
+        color           : #CCC;
+        margin          : 160px 0 0 0;
+        padding         : 12px 0 0 0;
+        height          : 30px;
+        width           : 160px;
+        position        : absolute;
+        text-align      : center;
+        display         : block;
+}                                       
+
+#container #content #middle #content_wypozyczanie #rezerwowanieSamochodu_button_powrot:hover {
+        background      : #777;
+}
+        
+
+#container #content #middle #content_wypozyczanie #rezerwowanieSamochodu_button {
+        background      : #B31;
+        border-radius   : 15px;
+        font            : bold italic 14px Arial;
+        color           : #F95;
+        margin          : 160px 0 0 180px;
+        padding         : 12px 0 0 0;
+        height          : 30px;
+        width           : 160px;
+        position        : absolute;
+        text-align      : center;
+        display         : block;
+}                                       
+        
+#container #content #middle #content_wypozyczanie #rezerwowanieSamochodu_button:hover {
+        background : #921;        
+}
+
+
+
+#container #content #middle #content_wypozyczanie #po_potwierdzeniu_samochod
+{
+	font		: bold italic 14px Arial;
+	color		: #444;
+	height		: 20px;
+	width		: 100px;
+	position	: absolute;
+	margin		: 182px 0 0 451px;
+}
+
+#container #content #middle #content_wypozyczanie #po_potwierdzeniu_tekst
+{
+	font		: bold 12px Arial;
+	color		: #222;
+	height		: 100px;
+	width		: 800px;
+	position	: absolute;
+	margin		: 254px 0 0 200px;
+}	
+
+#container #content #middle #content_wypozyczanie #po_potwierdzeniu_button {
+        background : #275;
+        border-radius : 12px;
+        font : bold italic 14px Arial;
+        color : #F95;
+        margin : 285px 0 0 660px;
+        padding : 10px 0 0 0;
+        height : 28px;
+        width : 200px;
+        position : absolute;
+        text-align : center;
+        display : block;
+}                                       
+        
+#container #content #middle #content_wypozyczanie #po_potwierdzeniu_button:hover {
+        color : #D63;
+        background : #164;
+        display : block;
+}
+
+
+/**********************************************   Kontakt   ********************************************************/
+
+#container #content #middle #content_Kontakt #picture {
+        background      : url(../pictures/MitsubishiWycietyZmiana.png) no-repeat center center;
+        float           : left;
+        height          : 200px;
+        width           : 300px;
+}
+        
+#container #content #middle #content_Kontakt #content_Kontakt_right {
+        float           : left;        
+        font            : italic bold 15px Arial;
+        margin          : 10px 0 0 340px;
+        color           : #555;
+}
+
+/******************************************************************************************************/
+
+#container #content #bottom #bottom1 {
+        background      : #FC4;
+        margin          : 430px 0 0 0;
+        height          : 3px;
+        width           : 1080px;
+        position        : absolute;
+        z-index         : 2;
+}
+
+        
+#container #content #bottom #bottom2 {
+        background      : #507060;        
+        margin          : 435px 0 0 0;
+        height          : 50px;
+        width           : 1080px;
+        position        : absolute;
+        
+}
+
+
+.title {	
+	font-size	: 20px;
+ 	font-weight 	: 900;
+	margin-top	: 20px;
+	margin-bottom	: 20px;
+	color		: #119988;				
+}
+
+.formularze {
+        font-family	: "Arial";
+	font-size	: 14px;
+	font-style	: italic;		
+}
+
+#kreski {    
+        margin-top      : 52px;
+	height 		: 5px;
+	width 		: 1080px;
+	position 	: absolute;
+	z-index 	: 0;
+}
+
+#right { height		: 5px; }
+
+#righthigher, #rightlower {	
+	background-color 	: #7CA;
+	height			: 1px;
+	width			: 306px;	
+	position 		: relative;
+	z-index 		: 1;	
+}
+
+#rightbetween {	
+	height 			: 3px;
+	width 			: 306px;
+	background-color 	: #FFF;
+	position 		: relative;
+	z-index 		: 1;
+}
+
+
+
+#kreski > #left {	
+	float 		: left;
+	width 		: 774px;
+	height 		: 5px;
+	position 	: relative;
+	z-index		: 0;
+	
+}
+
+#container #content #top #linia {
+	margin-top     : 60px;
+	height         : 2px;
+	width          : 1080px;
+	background     : #776;
+	position       : absolute;
+	z-index        : 0;
+}
+
+
+
+#container #content #top #loggingarea {	        
+	float 		: right;
+	height 		: 58px;
+	width           : 140px;
+}
+
+#container #content #top #loggingbutton {
+        border-radius           : 2px;                        	
+	background-color 	: #119988;
+	width 			: 140px; 
+	text-align 		: center;
+	height			: 2em;
+	line-height		: 2em;
+	font-weight             : 900;
+}
+			
+#loggingbutton a 	{ display 		: block; }			
+
+#loggingbutton:hover	{ background-color	: #038378; /* tło po najechaniu bez naciskania */ }
+
+#linkrejestracja {
+	text-align 	: center;
+	font-weight	: 500;		
+	margin-top	: 8px;
+}
+
+#linkrejestracja a { color 		: #3F3F3F; }
+	
+a 		{ color 		: #4F4F3E; }
+
+a:hover		{ color	 		: #3E3E2D; }
+
+a:link		{ text-decoration 	: none; }
+
+
+
+
+
+
+
+
+
+
+
+
